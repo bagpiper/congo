@@ -1,0 +1,17 @@
+[[module.imports]]
+  disable = false
+  ignoreConfig = false
+  ignoreImports = false
+  path = 'github.com/gohugoio/hugoTestModules1_linux/modh1_2_1v'
+[[module.imports]]
+  path = "github.com/jpanther/congo/v2"
+
+[[module.imports]]
+  path = "/Users/m1pro/dev/g0000-content"
+  [[module.mounts]]
+  source = 'content/bagpiper'
+  target = 'content'
+
+[hugoVersion]
+  extended = false
+  min = "0.87.0"
